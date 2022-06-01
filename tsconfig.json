@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/vscode-typescript-to-lua/master/tsconfig-schema.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "types": [
+      "lua-types/5.2",
+      "./typings/wireshark"
+    ],
+    "strict": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules/**/*", "dist/**/*"],
+  "tstl": {
+    "luaTarget": "5.2",
+    "luaBundle": "./dist/wireshark-among-us.lua",
+    "luaBundleEntry": "./src/index.ts"
+  }
+}

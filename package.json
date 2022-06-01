@@ -1,0 +1,16 @@
+{
+  "name": "wireshark-among-us",
+  "version": "0.1.0",
+  "description": "Wireshark dissector for among us protocol",
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "author": "js6pak",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "lua-types": "^2.11.0",
+    "typescript": "~4.6.2",
+    "typescript-to-lua": "^1.4.4"
+  }
+}
